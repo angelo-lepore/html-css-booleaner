@@ -5,38 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-        <img src="img/pattern.png" alt="pattern">
-        <img src="img/logo.svg" alt="The Booleaner">
-        </div>
+    <!-- header -->
+    <header id="main-header">
+            <img id="logo" src="./img/logo.svg" alt="The Booleaner">
     </header>
+    <!-- main -->
     <main>
-     <article>
+        <article>
+            <header>
+                <h1>Internet deve essere al servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee</h1>
+                <address class="text-grey">Scritto da <a class="text-blue"> The Booleaner</a></address>
+                <time class="text-grey text-small" datetime="2020-10-10">il 10/10/2020</time>
+            </header>
+
+            <figure>
+                <img src="./img/tim-1.jpg" alt="Tim Berners-Lee-photo1">
+                <img src="./img/tim-2.jpg" alt="Tim Berners-Lee-photo2">
+            <figcaption class="text-small">
+                1st photo: John S. and James L. Knight Foundation,by Scott Henrichsen<br>
+                2st Photo: Wikimedia, by Paul Clarke
+            </figcaption>
+            </figure>
+
             <section>
-                <h1 class="testo-grande">Internet deve essere al servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee</h1>
-                <p class="testo-grigio">Scritto da <span class="testo-azzurro">The Booleaner</span>
-                    <br> il 10/10/2020</p>
-            </section>
-
-            <div>
-                <img src="img/tim-1.jpg" alt="Tim Berners-Lee-photo1">
-                <img src="img/tim-2.jpg" alt="Tim Berners-Lee-photo2">
-            </div>
-
-            <small>
-                <br>1st photo: John S. and James L. Knight Foundation,by Scott Henrichsen
-                <br> 2st Photo: Wikimedia, by Paul Clarke
-            </small>
-
-            <section>
-                <p>Lorem impsum idolor sit amet, consectetuer adiniscing elit. sed diam nonummy nibh enismod tincidunt ut aoreet dolore maona aliquam erat volutat. Ut wisi enim ad minim veniam, quis nostrud <span class="giallo"> exerci tation ullamcorder suscipit lobortis misi ut aliquip ex ea commodo consequat.</span> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conseauat. vel illum dolore eu feugiat nulla facillisis at vero eros et accumsan et justo odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore tw feugait nulla facilisi.</p>
+                <p>Lorem impsum idolor sit amet, consectetuer adiniscing elit. sed diam nonummy nibh enismod tincidunt ut aoreet dolore maona aliquam erat volutat. Ut wisi enim <br> ad minim veniam, quis nostrud <mark> exerci tation ullamcorder suscipit lobortis misi ut aliquip ex ea commodo consequat.</mark> Duis autem vel eum iriure dolor in hendrerit in <br> vulputate velit esse molestie conseauat. vel illum dolore eu feugiat nulla facillisis at vero eros et accumsan et justo odio dignissim qui blandit praesent luptatum <br> zzril delenit augue duis dolore tw feugait nulla facilisi.</p>
             </section>
 
             <ul>
@@ -50,12 +46,12 @@
                  <tr>
                      <th>Lorem ipsum dolor</th>
                      <th>Lorem ipsum dolor</th>
-                     <th>Lorem ipsum dolor</th>
+                     <th class="w-50">Lorem ipsum dolor</th>
+                 </tr>
                 </thead>
                 <tbody>
-                 </tr>
-                 <tr class="riga-tabbella">
-                     <td class="mia-tabella">Lorem ipsum dolor</td>
+                 <tr  class="bg-lightblue"  >
+                     <td>Lorem ipsum dolor</td>
                      <td>Lorem ipsum dolor</td>
                      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,<br>
                         placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia <br>
@@ -68,7 +64,7 @@
                         placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia<br>
                         eveniet expedita a quia modi. Totam saepe quibusdam natus harum</td>
                  </tr>
-                 <tr class="riga-tabbella">
+                 <tr class="bg-lightblue">
                      <td>Lorem ipsum dolor</td>
                      <td>Lorem ipsum dolor</td>
                      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,<br>
@@ -79,18 +75,20 @@
             </table>
 
             <section>
-                <span>Lorem impsum dolor sit amet, consectetuer adiniscing elit, sed diam nonummy nibh enismod tincidunt ut aoreet dolore maona aliquam erat volutat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorder suscipit lobortis misi ut aliquiD ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conseauat, vel <span class="giallo">illum dolore eu feugiant nulla facillisis at vero eros et accumsan et iusto</span> odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-            </section>
-     </article>     
-    </main>
-    <footer>
-    <h3 class="testo-grigio">Potrebbero interessarti</h3>
-    <div>
-        <img src="img/monitor.jpg" alt="monitor">
-        <img src="img/graph.jpg" alt="grafici">
-    </div>
+                <p>Lorem impsum dolor sit amet, consectetuer adiniscing elit, sed diam nonummy nibh enismod tincidunt ut aoreet dolore maona aliquam erat volutat. Ut wisi enim <br> ad minim veniam, quis nostrud exerci tation ullamcorder suscipit lobortis misi ut aliquiD ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in <br> vulputate velit esse molestie conseauat, vel <mark>illum dolore eu feugiant nulla facillisis at vero eros et accumsan et iusto</mark> odio dignissim qui blandit praesent luptatum <br> zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            </section>   
+        </article>
 
-    </footer>
+        <aside>
+            <h3 class="text-grey">Potrebbero interessarti</h3>
+            <div class="related-article-pc">
+                <h4 class="related-article-title">Lorem ipsum dolor</h4>
+            </div>
+            <div class="related-article-graph">
+                <h4 class="related-article-title">Lorem ipsum dolor</h4>
+            </div>
+        </aside>
+    </main>
 </body>
 
 </html>

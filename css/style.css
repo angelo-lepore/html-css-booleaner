@@ -1,47 +1,90 @@
-/* reset */
-* {
+/* generics */
+body,
+figure {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+ul {
+    padding-inline-start: 0;
+    list-style-position: inside;
 }
 
-header {
-    background: img;
+/* header */
+#main-header {
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-size:28%;
+    line-height: 100px;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+
+/* main */
+main {
+    margin: 5px;
+}
+h1 {
+    font-size: 39px;
+    margin-bottom: 0;
+}
+address {
+    font-style: normal;
+    font-size: 19px;
+}
+figure {
+    margin: 20px 0;
+}
+.text-grey {
+    color: #818181;
+}
+.text-blue {
+    color: #20A9E5;
+}
+.text-small {
+    font-size: 12px;
+}
+.related-article-pc {
+    color: #FFFFFF;
+    width: 210px;
+    height: 160px;
+    background-image: url(../img/monitor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(43, 140, 213, 0.5);
-    padding: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.related-article-graph {
+    color: #FFFFFF;
+    width: 210px;
+    height: 160px;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.related-article-title {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* tabelle */
+th {
     text-align: left;
+    background-color: #20A9E5;
+    color: #FFFFFF;
 }
-
-header img {
-    height: 60px;
+.bg-lightblue {
+    background-color: #B1E5F2;
 }
-
-ul { 
-    padding: 20px;
+.w-50 {
+    width: 50%;
 }
-
-thead {
-    background-color: rgb(0, 136, 255);
-    color: white;
-}
-
-.riga-tabbella {
-    background-color: aqua;
-}
-
-.giallo {
-    background: yellow;
-}
-
-.testo-grande {
-    font-size: 36px;
-}
-
-.testo-grigio {
-    color: gray;
-}
-
-.testo-azzurro {
-    color: aqua;
+table {
+    border-collapse: collapse;
 }
